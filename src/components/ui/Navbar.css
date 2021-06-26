@@ -1,0 +1,21 @@
+.nav-link {
+    color:  white !important;
+    font-weight: bold;
+}
+
+.logo {
+    color: black !important;
+    height: 50px !important;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.navbar-collapse {
+    max-width: max-content;
+}
+
+.dropdown-menu {
+    transform: translateX(-20%);
+}

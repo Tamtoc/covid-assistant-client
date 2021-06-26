@@ -1,0 +1,48 @@
+.container.profile {
+    
+}
+
+.profile-image {
+    border-right: 2px solid #dadde1;
+}
+
+.profile-image .image {
+    object-fit: cover;
+    cursor: pointer;
+    box-shadow: 0 2px 4px #b7bbbe;
+}
+
+.profile-image .image:hover {
+    box-shadow: 0 8px 12px #b7bbbe;
+}
+
+.profile-data {
+    padding-left: 40px;
+}
+
+.profile-title {
+    margin-bottom: 40px;
+    color: rgb(4, 141, 45);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-image .image {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+}
+
+.profile-data {
+
+}
+
+.info {
+    margin-left: 40px;
+}
+
+.row .data {
+    margin-bottom: 20px;
+}

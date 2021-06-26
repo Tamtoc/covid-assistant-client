@@ -1,0 +1,40 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.container-home {
+    width: 90%;
+    max-width: 90%;
+    height: 100%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    display: flexbox;
+}
+
+.card {
+    display: inline-block;
+    width: 40%;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 2px 4px #b7bbbe;
+    padding: 1%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.internal-link.home {
+    color: black;
+}
+
+.internal-link.home:hover {
+    color: rgb(4, 141, 45);
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 16px #b7bbbe;
+}
