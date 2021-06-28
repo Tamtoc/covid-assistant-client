@@ -9,7 +9,7 @@ export const SensorData = () => {
     const [ dataState, setDataState ] = useState(null);
 
     useEffect(() => {
-            fetch('http://ec2-18-191-133-208.us-east-2.compute.amazonaws.com:10004/sensor?from=0&limit=100', {
+            fetch('http://18.119.66.249:10004/sensor?from=0&limit=100', {
                 headers: {
                     'Content-Type': 'application/json',
                 }

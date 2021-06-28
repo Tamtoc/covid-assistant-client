@@ -36,7 +36,7 @@ export const ProfilePictureModal = ({ isOpen, close }, ...props) => {
         var formData = new FormData();
         formData.append("file", file);
 
-        fetch('http://ec2-18-191-133-208.us-east-2.compute.amazonaws.com:10004/upload/users/' + user.id, {
+        fetch('http://18.119.66.249:10004/upload/users/' + user.id, {
             method: 'put',
             body: formData
         })

@@ -18,7 +18,7 @@ export const Profile = () => {
     const [ isOpenProfilePictureModal, openProfilePictureModal, closeProfilePictureModal ] = useModal();
 
     useEffect(() => {
-        fetch('http://ec2-18-191-133-208.us-east-2.compute.amazonaws.com:10004/upload/users/' + user.id)
+        fetch('http://18.119.66.249:10004/upload/users/' + user.id)
         .then( res => res.blob())
         .then( img => {
             console.log(img)

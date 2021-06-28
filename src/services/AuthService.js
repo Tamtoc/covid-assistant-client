@@ -1,4 +1,4 @@
-const url = "http://ec2-18-191-133-208.us-east-2.compute.amazonaws.com:10004";
+const url = "http://18.119.66.249:10004";
 
 export default {
     
